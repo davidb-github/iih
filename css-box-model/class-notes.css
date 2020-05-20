@@ -1,0 +1,134 @@
+
+
+
+img{
+  position: relative;
+  left: -60px;
+  top: 60px;
+  width: 100px;
+
+}
+
+img{
+  position: absolute;
+  top: 0;
+  width: 100px;
+
+}
+
+<div class='position'>
+
+.position {
+  position: relative;
+}
+----------------------------
+<p>This article is about pizza</p>
+
+img{
+  float: right;
+  margin: 40px;
+  width: 40%;
+
+}
+----------------------------
+<img class='one' src='http://.com' alt='Pizza Logo'/>
+
+img.one{
+  float: left:left;
+  clear: both;
+  border: 1px; solid red;
+}
+----------------------------
+img.two{
+
+}
+<div class=''></div>
+
+div > h1
+
+3.on the actual box
+text-align: center
+margin: auto; self centers
+
+
+/*
+static
+fixed
+relative - relative static position
+absolute -
+*/
+.float-me-left{
+  float: left;
+  width: 40%;
+
+}
+
+.float-me-left img {
+  width: 50%;
+}
+
+
+.float-me-right{
+  float: left;
+  width: 40%;
+
+}
+
+.float-me-right img {
+  width: 50%;
+}
+
+direction 5
+
+.clearfix {
+  clear: both;
+}
+
+-----
+.main-container h1{
+  font-family: '', cursive;
+}
+
+------just give me the top level children
+.main-container > h1{
+  color:blue;
+}
+---------------
+.main-container{
+  background-color: goldenrod;
+  border: 5px solid darkgreen;
+  padding: 30px;
+  width: 80%;
+}
+
+
+.container {
+  display flex;
+}
+
+.item {
+  order: 5; default is 0
+}
+
+<div class='container'>
+ <img class='logo'>
+</div>
+
+
+.container{
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+<img class="logo one">
+
+<img class="logo two">
+
+.one {
+  order; 1;
+}
+
+.two{
+  order: 2;
+}
+----------
